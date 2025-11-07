@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import { postsAPI, commentsAPI } from '../services/api';
 import LoadingSpinner from '../components/LoadingSpinner';
 import CommentList from './CommentList';
-import { FaCalendar, FaUser, FaEdit, FaTrash, FaArrowLeft } from 'react-icons/fa';
+import { FaCalendar, FaEdit, FaTrash, FaArrowLeft } from 'react-icons/fa';
 import './PostDetail.css';
 
 const PostDetail = () => {

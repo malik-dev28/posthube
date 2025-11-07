@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Use the backend API root (no extra `/posts` suffix here) so endpoints below
 // append the resource paths like `/posts` or `/auth` consistently.
-const API_BASE_URL = 'http://10.172.160.193:8080/api';
+const API_BASE_URL = 'http://10.172.168.89:8080/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
