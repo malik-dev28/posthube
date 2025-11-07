@@ -1,0 +1,40 @@
+.edit-post-page {
+  min-height: calc(100vh - 80px);
+  padding: 40px 0;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.left-actions,
+.right-actions {
+  display: flex;
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .edit-post-page {
+    padding: 20px 0;
+  }
+  
+  .form-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .left-actions,
+  .right-actions {
+    justify-content: stretch;
+  }
+  
+  .left-actions .btn,
+  .right-actions .btn {
+    flex: 1;
+  }
+}

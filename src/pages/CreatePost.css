@@ -1,0 +1,39 @@
+.create-post-page {
+  min-height: calc(100vh - 80px);
+  padding: 40px 0;
+}
+
+.post-form {
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-textarea.large {
+  min-height: 300px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+@media (max-width: 768px) {
+  .create-post-page {
+    padding: 20px 0;
+  }
+  
+  .post-form {
+    padding: 20px;
+  }
+  
+  .form-actions {
+    flex-direction: column;
+  }
+}
